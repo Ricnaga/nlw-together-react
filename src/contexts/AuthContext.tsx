@@ -58,7 +58,7 @@ export function AuthContextProvider({ children }: AuthContextProviderProps) {
             setUser({
                 id: uid,
                 name: displayName,
-                avatar: photoURL
+                avatar: photoURL,
             })
         }
 
