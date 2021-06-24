@@ -21,7 +21,7 @@ export function Home() {
         history.push('/rooms/new')
     }
 
-    async function handleJoinRoom(event:FormEvent){
+    async function handleJoinRoom(event: FormEvent) {
         event.preventDefault();
 
         if (roomCode.trim() === '') {
@@ -34,6 +34,12 @@ export function Home() {
             alert('Room does not exists')
             return
         }
+
+        if (roomRef.val().endedAt) {
+            alert('Room already closed')
+            return;
+        }
+
         history.push(`rooms/${roomCode}`)
     }
 
