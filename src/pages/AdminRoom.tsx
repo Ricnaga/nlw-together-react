@@ -8,7 +8,7 @@ import { Question } from '../components/Question'
 import { RoomCode } from '../components/RoomCode'
 import { useRoom } from '../hooks/useRoom'
 import { database } from '../services/firebase'
-import '../styles/room.scss'
+import './room.scss'
 
 type RoomParams = {
     id: string

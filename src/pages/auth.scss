@@ -140,3 +140,9 @@
         }
     }
 }
+
+@media(max-width: 1020px){
+    #page-auth{
+        flex-direction: column;
+    }
+}

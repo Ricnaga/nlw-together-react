@@ -7,7 +7,7 @@ import { RoomCode } from '../components/RoomCode'
 import { useAuth } from '../hooks/useAuth'
 import { useRoom } from '../hooks/useRoom'
 import { database } from '../services/firebase'
-import '../styles/room.scss'
+import './room.scss'
 
 type RoomParams = {
     id: string

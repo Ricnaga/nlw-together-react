@@ -6,7 +6,7 @@ import logoImg from '../assets/images/logo.svg'
 import { Button } from '../components/Button'
 import { useAuth } from '../hooks/useAuth'
 import { database } from '../services/firebase'
-import '../styles/auth.scss'
+import './auth.scss'
 
 export function Home() {
     const history = useHistory()

@@ -110,3 +110,18 @@
         }
     }
 }
+
+@media(max-width:1020px){
+    #page-room{
+        padding: 16px;
+
+        header{
+            padding: 0;
+            .content{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}
