@@ -14,7 +14,8 @@
 - React: Api Context
 - React: Components
 - Sass: estilização em cascata
-- Firebase: configurações para utilização do firebase e deploy
+- Firebase: configurações para utilização do firebase
+- Firebase: Deploy
 
 ## <div align="center"> Sumário </div>
 <!--ts-->
