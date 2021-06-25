@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import { FormEvent } from 'react'
+import { FormEvent, useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import googleIcon from '../assets/images/google-icon.svg'
 import illustrationImg from '../assets/images/illustration.svg'
